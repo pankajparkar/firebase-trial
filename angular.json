@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ng-india-feedback": {
+    "firebase-trail": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -18,7 +18,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/ng-india-feedback",
+            "outputPath": "dist/firebase-trail",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": ["zone.js"],
@@ -62,10 +62,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ng-india-feedback:build:production"
+              "browserTarget": "firebase-trail:build:production"
             },
             "development": {
-              "browserTarget": "ng-india-feedback:build:development"
+              "browserTarget": "firebase-trail:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -73,7 +73,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ng-india-feedback:build"
+            "browserTarget": "firebase-trail:build"
           }
         },
         "test": {
