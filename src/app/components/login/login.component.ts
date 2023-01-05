@@ -8,7 +8,7 @@ import { FormsModule, NgForm } from '@angular/forms';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'cf-login',
+  selector: 'ft-login',
   standalone: true,
   imports: [
     MatFormFieldModule,

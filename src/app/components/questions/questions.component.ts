@@ -6,7 +6,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { RouterLink } from '@angular/router';
 
 @Component({
-  selector: 'cf-questions',
+  selector: 'ft-questions',
   standalone: true,
   imports: [
     NgForOf,
@@ -16,7 +16,7 @@ import { RouterLink } from '@angular/router';
   ],
   template: `
     <ng-container *ngFor="let question of questions">
-      <cf-question [question]="question"></cf-question>
+      <ft-question [question]="question"></ft-question>
     </ng-container>
     <br />
     <button mat-raised-button type="button" routerLink="/feedback/thanks">

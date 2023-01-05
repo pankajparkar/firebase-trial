@@ -9,7 +9,7 @@ import { ActivatedRoute, Router, RouterLink, RouterOutlet } from '@angular/route
 import { steps } from 'src/app/steps';
 
 @Component({
-  selector: 'cf-feedback',
+  selector: 'ft-feedback',
   standalone: true,
   imports: [
     MatCardModule,

@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'cf-thanks',
+  selector: 'ft-thanks',
   standalone: true,
   imports: [CommonModule],
   template: `

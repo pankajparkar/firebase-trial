@@ -7,7 +7,7 @@ import { MatInputModule } from '@angular/material/input';
 import { RouterLink } from '@angular/router';
 
 @Component({
-  selector: 'cf-welcome',
+  selector: 'ft-welcome',
   standalone: true,
   imports: [
     MatInputModule,

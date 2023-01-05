@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'cf-signup',
+  selector: 'ft-signup',
   standalone: true,
   imports: [CommonModule],
   template: `

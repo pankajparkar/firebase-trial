@@ -5,7 +5,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 
 @Component({
-  selector: 'cf-footer',
+  selector: 'ft-footer',
   standalone: true,
   imports: [
     MatToolbarModule,

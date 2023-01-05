@@ -5,7 +5,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { RouterLink } from '@angular/router';
 
 @Component({
-  selector: 'cf-navbar',
+  selector: 'ft-navbar',
   standalone: true,
   imports: [
     MatToolbarModule,

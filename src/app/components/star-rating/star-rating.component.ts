@@ -12,7 +12,7 @@ export enum StarRatingColor {
 }
 
 @Component({
-  selector: 'cf-star-rating',
+  selector: 'ft-star-rating',
   standalone: true,
   imports: [
     MatIconModule,

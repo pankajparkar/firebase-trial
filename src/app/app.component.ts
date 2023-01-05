@@ -5,14 +5,14 @@ import { NavbarComponent } from './common/navbar/navbar.component';
 import { StarRatingComponent } from './components/star-rating/star-rating.component';
 
 @Component({
-  selector: 'cf-root',
+  selector: 'ft-root',
   standalone: true,
   template: `
-    <cf-navbar></cf-navbar>
+    <ft-navbar></ft-navbar>
     <div class="content">
       <router-outlet></router-outlet>
     </div>
-    <cf-footer></cf-footer>
+    <ft-footer></ft-footer>
   `,
   imports: [
     NavbarComponent,
@@ -22,7 +22,7 @@ import { StarRatingComponent } from './components/star-rating/star-rating.compon
   ],
   styles: [
     `
-    .content:has(cf-question) {
+    .content:has(ft-question) {
       display: block;
     }
     .content {

@@ -5,7 +5,7 @@ import { MatCardModule } from '@angular/material/card';
 import { StarRatingComponent } from '../star-rating/star-rating.component';
 
 @Component({
-  selector: 'cf-question',
+  selector: 'ft-question',
   standalone: true,
   imports: [
     MatCardModule,
@@ -22,7 +22,7 @@ import { StarRatingComponent } from '../star-rating/star-rating.component';
         {{ question.subtitle }}
       </mat-card-subtitle>
       <mat-card-content>
-        <cf-star-rating [rating]="1" [starCount]="5"></cf-star-rating>
+        <ft-star-rating [rating]="1" [starCount]="5"></ft-star-rating>
       </mat-card-content>
     </mat-card>
   `,
